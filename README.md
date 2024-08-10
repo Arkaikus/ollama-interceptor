@@ -1,5 +1,8 @@
 <div align="center">
-<img src="https://ollama.com/public/ollama.png" alt="logo"/>
+
+![image](https://github.com/user-attachments/assets/a3953e98-b7eb-47d4-b40f-263a19cb3974)
+
+
 <h1> Ollama Interceptor</h1>
 
 </div>
@@ -17,29 +20,13 @@
 
 
 ## Intro <a name="intro"></a>
-This boilerplate is meant to be a minimal quick start for creating chrome extensions using React, Typescript and Tailwind CSS.
+
+This is a chrome extension that allows you to redirect traffic into your ollama local instance
 
 Built for:
-> For improved DX and rapid building vite and nodemon are used.
-
 > Chrome does not accept manifest v2 extensions since Jan 2022, therefore this template uses manifest v3.
 
-> Firefox + other browsers don't yet support manifest v3, so cross browser usage is not encouraged.
-
 * Read more about Chrome manifest v2 support [here](https://developer.chrome.com/docs/extensions/mv2/).
-* Read more about Firefox Manifest v3 support [here](https://discourse.mozilla.org/t/manifest-v3/94564).
-
-As soon as Firefox supports manifest v3, support will be added in this repo as well.
-
-Oh by the way ... I also implemented a chrome local/sync storage hook for react, which works well with this 
-template. [Check it out here](https://gist.github.com/JohnBra/c81451ea7bc9e77f8021beb4f198ab96).
-
-## Why another boilerplate? <a name="why"></a>
-I have used webpack react boilerplates and found it too hard to configure.
-
-Vite is mega easy to understand which makes it easier to get into and to maintain for others.
-
-I couldn't find another minimal boilerplate for React, TypeScript and Tailwind CSS. So here it is.
 
 ## Features <a name="features"></a>
 - [React 18](https://reactjs.org/)
